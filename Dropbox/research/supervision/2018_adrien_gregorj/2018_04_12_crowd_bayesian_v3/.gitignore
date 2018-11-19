@@ -1,0 +1,7 @@
+data/
+old_data/
+results/
+
+rename.py
+
+__pycache__/
