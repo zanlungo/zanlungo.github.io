@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.16)  30 SEP 2022 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.16)  30 SEP 2022 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -510,19 +510,19 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ) [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./jappi
-c-eps-converted-to.pdf>] [2]
+c-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/mc/it' in size <10> not available
-(Font)              Font shape `OT1/phv/mc/sl' tried instead on input line 147.
+(Font)              Font shape `OT1/phv/mc/sl' tried instead on input line 148.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 150.
+(Font)              <7> on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 150.
+(Font)              <5> on input line 151.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
 LaTeX Font Info:    Font shape `OT1/phv/mc/it' in size <12> not available
-(Font)              Font shape `OT1/phv/mc/sl' tried instead on input line 157.
+(Font)              Font shape `OT1/phv/mc/sl' tried instead on input line 158.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/utf8x.def
@@ -658,17 +658,17 @@ File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 165.
+(Font)              <8> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 165.
+(Font)              <6> on input line 166.
 LaTeX Font Info:    Font shape `OT1/phv/mc/it' in size <8> not available
-(Font)              Font shape `OT1/phv/mc/sl' tried instead on input line 165.
+(Font)              Font shape `OT1/phv/mc/sl' tried instead on input line 166.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-) [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+) [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12]
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
 )
@@ -678,7 +678,7 @@ File: UTF8.enc 2015/04/18 4.8.4
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-LaTeX Font Info:    Try loading font information for C70+min on input line 826.
+LaTeX Font Info:    Try loading font information for C70+min on input line 825.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cjk/contrib/wadalab/c70min.fd
@@ -689,7 +689,7 @@ File: c70min.fdx 2015/04/18 4.8.4
 )
 
 LaTeX Font Warning: Font shape `C70/min/mc/n' undefined
-(Font)              using `C70/min/m/n' instead on input line 826.
+(Font)              using `C70/min/m/n' instead on input line 825.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2015/04/18 4.8.4
@@ -765,7 +765,7 @@ File: UTF8.chr 2015/04/18 4.8.4
 )
 
 LaTeX Font Warning: Font shape `C70/min/mc/it' undefined
-(Font)              using `C70/min/mc/n' instead on input line 855.
+(Font)              using `C70/min/mc/n' instead on input line 854.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2015/04/18 4.8.4
@@ -773,13 +773,13 @@ File: UTF8.enc 2015/04/18 4.8.4
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-[16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 867.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 867.
+[13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 866.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 866.
  (./2022_09_28_zanlungo_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 867.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 867.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 866.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 866.
 Package rerunfilecheck Info: File `2022_09_28_zanlungo_cv.out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -787,11 +787,11 @@ Package rerunfilecheck Info: File `2022_09_28_zanlungo_cv.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 867.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 866.
  ) 
 Here is how much of TeX's memory you used:
- 8334 strings out of 492995
- 127947 string characters out of 6132703
+ 8331 strings out of 492995
+ 127926 string characters out of 6132703
  253758 words of memory out of 5000000
  11499 multiletter control sequences out of 15000+600000
  45484 words of font info for 123 fonts, out of 8000000 for 9000
@@ -818,10 +818,10 @@ jroma.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/wadalab/dmj/dmjsy.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8ac.pfb>
-Output written on 2022_09_28_zanlungo_cv.pdf (17 pages, 912460 bytes).
+Output written on 2022_09_28_zanlungo_cv.pdf (14 pages, 911658 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
