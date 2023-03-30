@@ -318,24 +318,13 @@ The results were compared with a more traditional numerical treatment of hyperbo
 \ecvsection{Publications}
 
 \ecvitem[10pt]{\large Journal papers and book chapters}{}
-\stepcounter{papercount}
 
-\ecvitem{\thepapercount}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, X. Jia, K. Nishinari, T. Kanda}
-\ecvitem{}{A pure number to assess ``congestion'' in pedestrian crowds}
-\ecvitem{}{Transportation Research Part C: Emerging Technologies 148, 104041}
-\ecvitem{}{https://doi.org/10.1016/j.trc.2023.104041 {\bf (2022 impact factor 9.69)}}
-
-\ecvitem{\thepapercount}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, K. Nishinari, T. Kanda}
-\ecvitem{}{Macroscopic and microscopic dynamics of a pedestrian cross-flow: Part II, modelling}
-\ecvitem{}{https://doi.org/10.1016/j.ssci.2022.105969Safety Science {\bf (2022 impact factor 6.50)}}
-\ecvitem{}{}
-
-\ecvitem{\thepapercount}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, K. Nishinari, T. Kanda}
+\ecvitem{}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, K. Nishinari, T. Kanda}
 \ecvitem{}{Macroscopic and microscopic dynamics of a pedestrian cross-flow: Part I, experimental analysis}
-\ecvitem{}{https://doi.org/10.1016/j.ssci.2022.105953 {\bf (2022 impact factor 6.50)}}
+\ecvitem{}{Safety Science (in press).}
 \ecvitem{}{}
 
-
+\stepcounter{papercount}
 \ecvitem{\thepapercount}{F.~Zanlungo, Z. Y{\"u}cel, T. Kanda}
 \ecvitem{}{\it Intrinsic group behaviour II: On the dependence of triad spatial dynamics on social and personal features; and on the effect of social interaction on small group dynamics}
 \ecvitem{}{PloS One, Vol 14, No 12, pp e0225704, 2019}
@@ -464,6 +453,20 @@ The results were compared with a more traditional numerical treatment of hyperbo
 \ecvitem{}{doi: 10.1142/S0219525907001410}
 \ecvitem{}{}
 
+\ecvitem[10pt]{\large Under review/ In preparation}
+
+\stepcounter{papercount}
+\ecvitem{\thepapercount}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, K. Nishinari, T. Kanda}
+\ecvitem{}{\it Analysis and modelling of macroscopic and microscopic dynamics of a pedestrian cross-flow}
+\ecvitem{}{arXiv:2112.12304}
+\ecvitem{}{}
+
+
+\stepcounter{papercount}
+\ecvitem{\thepapercount}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, K. Nishinari, T. Kanda}
+\ecvitem{}{\it Some considerations on crowd Congestion Level}
+\ecvitem{}{arXiv:2004.01883}
+\ecvitem{}{}
 
 \ecvitem[10pt]{\large Book chapters}
 

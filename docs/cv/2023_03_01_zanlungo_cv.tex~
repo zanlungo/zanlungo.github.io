@@ -142,7 +142,7 @@
 \ecvitem{2003} {Japanese language education} 
 \ecvitem{Institution}{Yamasa Language school, Okazaki-shi, Aichi-ken, Japan}
 \ecvitem{}{}
-
+\newpage
 \ecvitem{2002} {Italian Laurea in Physics}
 \ecvitem{}{\it (The Italian ``Laurea'' is legally equivalent to a Master degree. To obtain the degree, the candidate was supposed to work on a one year 
 Graduation Thesis project requiring original research.)}
@@ -171,6 +171,9 @@ Graduation Thesis project requiring original research.)}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \ecvsection{External funding}
+
+\ecvitem{2022-}{Collaborative researcher in the Advanced Mathematical Science for Mobility Society of Kyoto
+University (Unit leader: Prof S. Tsujimoto)}
 
 \ecvitem{2021}{Collaborative researcher in the JSPS Kiban-A 18H04121 project {\it Research and development for mobile HRI and its interaction design theory} (Principal investigator T. Kanda)}
 \ecvitem{}{Granted by the Japan Society for the Promotion of Science}
@@ -210,7 +213,6 @@ The project has been approved with a budget of 15 million euros, 1 million of th
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newpage
 
 \ecvsection{Teaching experience}
 \ecvitem{From 2021 }{Contract Lecturer at Okayama University, Okayama, Japan}
@@ -264,49 +266,49 @@ numerical integration, numerical solution of differential equations, stochastic 
 and to assist students during practice sessions.\\}
 \ecvitem{2007-2008}{Teaching assistant of the Complex Systems Laboratory course, Instructed by Dr.~Giorgini, Dep.~of Physics, Bologna University}
 \ecvitem{} {\it For this course, I prepared lectures on genetic algorithms, population dynamics (evolutionary game theory) and neural networks.\\}
-
+\newpage
 \ecvsection{Research experience}
 
 \ecvitem{Crowd dynamics}{\it Mathematical modelling of pedestrian behaviour, crowd dynamics and group behaviour, in collaboration with T.~Kanda}
 \ecvitem{}{In ATR we collected a large amount of data concerning the behaviour of pedestrians 
 in experimental settings and in real world environments, which I used to develop original models of pedestrian and crowd dynamics. More in detail, the major findings regarded:
 \begin{enumerate}
-\item The need to include a velocity dependent potential in a collision avoiding model for pedestrians, and the development of a corresponding mathematical and computational model {\bf[12]}.
-\item The improvement of the above model by taking in account the asymmetrical shape of human bodies {\bf[19]}, {\it (work based on data provided by the Nishinari lab. of Tokyo University)}.
-\item The development of ``Congestion Number'', a mathematical tool to asses the state of a human pedestrian crowd {\bf[20]}, {\it (in collaboration with the Nishinari lab. of Tokyo University)}
+\item The need to include a velocity dependent potential in a collision avoiding model for pedestrians, and the development of a corresponding mathematical and computational model {\bf[15]}.
+\item The improvement of the above model by taking in account the asymmetrical shape of human bodies {\bf[3]}, an analysis based on the dynamics of cross-flows {\bf[2,23]}.
+\item The development of ``Congestion Number'', a mathematical tool to asses the state of a human pedestrian crowd {\bf[1,25]}, {\it (in collaboration with the Nishinari lab. of Tokyo University)}
 \item The tendency of (Japanese) pedestrians to walk on the left side of corridors, and to overtake other pedestrians on the right side, 
-and the development of a method to introduce in a realistic way such a tendency in any pedestrian collision avoidance model {\bf[11,38]}.
-\item Large pedestrian groups are not stable, and usually break up in more stable 2 or 3 pedestrian sub-units {\bf[36]}.
+and the development of a method to introduce in a realistic way such a tendency in any pedestrian collision avoidance model {\bf[14,43]}.
+\item Large pedestrian groups are not stable, and usually break up in more stable 2 or 3 pedestrian sub-units {\bf[41]}.
 \item A mathematical model for the behaviour of social pedestrian groups, which was able to correctly predict the shape and velocity of pedestrian groups in low density,
-large environments {\bf[9]}.   
-\item Empirical study and mathematical modelling of how crowd density and other environment features affect the behaviour of pedestrians and in particular of groups {\bf[6,7,34,35]}. 
-\item How group composition and social roles affect the behaviour of pedestrian groups, and how this information may be used to automatically recognise groups and their composition  {\bf[1,2,5,23,26,27,33]}. 
-\item How gestures affect the behaviour of pedestrian groups {\bf[4,29]}.
-\item How the presence of groups affects crowd dynamics {\bf[24]} 
+large environments {\bf[12]}.   
+\item Empirical study and mathematical modelling of how crowd density and other environment features affect the behaviour of pedestrians and in particular of groups {\bf[9,10,39,40]}. 
+\item How group composition and social roles affect the behaviour of pedestrian groups, and how this information may be used to automatically recognise groups and their composition  {\bf[4,5,8,24,26,28,31,32,38]}. 
+\item How gestures affect the behaviour of pedestrian groups {\bf[7,34]}.
+\item How the presence of groups affects crowd dynamics {\bf[29]} 
 \end{enumerate}
 \\
 }
 
 \ecvitem{Human-Robot interaction}{\it Socially acceptable mobile robot navigation, in collaboration with T.~Kanda}
-\ecvitem{}{While working at  ATR I have been also involved in more engineering oriented works, such as the development of a robot able to smoothly navigate inside a human crowd {\bf[8,22,28,30,39,41]},
-and the development of algorithms to automatically detect pedestrian walking goals {\bf[37]} and pedestrian groups {\bf[10,31,40]}.
+\ecvitem{}{While working at  ATR I have been also involved in more engineering oriented works, such as the development of a robot able to smoothly navigate inside a human crowd {\bf[11,27,33,35,44,46]},
+and the development of algorithms to automatically detect pedestrian walking goals {\bf[42]} and pedestrian groups {\bf[13,36,45]}.
 \\
 }
 \ecvitem{Discrete chaotic systems} {\it Analysis of the effect of noise on discrete maps, in collaboration with S.~Vaienti and G.~Turchetti}
  \ecvitem{}{Development of a method
  to find a threshold beyond which the numerical results on chaotic maps are not reliable, and
-analysis of the differences between the effect of random noise and the effect of numerical round-off on the dynamics of the map {\bf[13,14,15]}.\\}
+analysis of the differences between the effect of random noise and the effect of numerical round-off on the dynamics of the map {\bf[16,17,18]}.\\}
 \newpage
 \ecvitem{Evolutionary dynamics of agent systems} {\it Microscopic Dynamics of Artificial Life Systems  (Ph.D.~thesis, sup.~G.~Turchetti, in collaboration with T.~Arita)}
 \ecvitem{}{Using an approach combining cellular automata or agent models with differential equation (replicator dynamics) models, I studied:
 \begin{enumerate}
-\item The Immune System T cell clonal expansion {\bf[21]}.
+\item The Immune System T cell clonal expansion {\bf[22]}.
 \item The relation between the evolution of collision avoidance strategies and the evolution of
-a {\it Theory of Mind} {\bf[18,43,44]}.
+a {\it Theory of Mind} {\bf[21,48,49]}.
 \item The evolution of ``traffic conventions'' (such as driving on the left or right side of streets) in a mobility system
-{\bf[16,45]}.
+{\bf[19,50]}.
 \item The consequences of the fact that interactions dependent on vision (such as the collision avoidance in crowd dynamics)
-do not follow the action-reaction law of dynamics {\bf[17,25]}.
+do not follow the action-reaction law of dynamics {\bf[20,30]}.
 \end{enumerate}\\}
 
 \ecvitem{Numerical study of statistical properties of relativistic fields} {\it Numerical study of the ultraviolet cascade in  $\phi^4$ classical model (Master thesis, sup.~C.~Destri)}
@@ -319,23 +321,27 @@ The results were compared with a more traditional numerical treatment of hyperbo
 
 \ecvitem[10pt]{\large Journal papers and book chapters}{}
 \stepcounter{papercount}
-
 \ecvitem{\thepapercount}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, X. Jia, K. Nishinari, T. Kanda}
 \ecvitem{}{A pure number to assess ``congestion'' in pedestrian crowds}
-\ecvitem{}{Transportation Research Part C: Emerging Technologies 148, 104041}
+\ecvitem{}{Transportation Research Part C: Emerging Technologies 148, 104041, 2023}
 \ecvitem{}{https://doi.org/10.1016/j.trc.2023.104041 {\bf (2022 impact factor 9.69)}}
-
-\ecvitem{\thepapercount}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, K. Nishinari, T. Kanda}
-\ecvitem{}{Macroscopic and microscopic dynamics of a pedestrian cross-flow: Part II, modelling}
-\ecvitem{}{https://doi.org/10.1016/j.ssci.2022.105969Safety Science {\bf (2022 impact factor 6.50)}}
 \ecvitem{}{}
 
+\stepcounter{papercount}
+\ecvitem{\thepapercount}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, K. Nishinari, T. Kanda}
+\ecvitem{}{Macroscopic and microscopic dynamics of a pedestrian cross-flow: Part II, modelling}
+\ecvitem{}{Safety Science 158, 105969, 2023}
+\ecvitem{}{https://doi.org/10.1016/j.ssci.2022.105969 {\bf (2022 impact factor 6.50)}}
+\ecvitem{}{}
+
+\stepcounter{papercount}
 \ecvitem{\thepapercount}{F. Zanlungo, C. Feliciani, Z. Y\"ucel, K. Nishinari, T. Kanda}
 \ecvitem{}{Macroscopic and microscopic dynamics of a pedestrian cross-flow: Part I, experimental analysis}
+\ecvitem{}{Safety Science 158, 105953, 2023}
 \ecvitem{}{https://doi.org/10.1016/j.ssci.2022.105953 {\bf (2022 impact factor 6.50)}}
 \ecvitem{}{}
 
-
+\stepcounter{papercount}
 \ecvitem{\thepapercount}{F.~Zanlungo, Z. Y{\"u}cel, T. Kanda}
 \ecvitem{}{\it Intrinsic group behaviour II: On the dependence of triad spatial dynamics on social and personal features; and on the effect of social interaction on small group dynamics}
 \ecvitem{}{PloS One, Vol 14, No 12, pp e0225704, 2019}
@@ -476,7 +482,31 @@ The results were compared with a more traditional numerical treatment of hyperbo
 \ecvitem{}{}
 
 
-\ecvitem[10pt]{\large Peer-reviewed conference papers}
+\ecvitem[10pt]{\large Conference papers}
+
+\stepcounter{papercount}
+\ecvitem{\thepapercount}{F.~Zanlungo, C.~Feliciani,H.~Murakami, Z.~Y\"ucel, X.~Jia, K.~Nishinari, T.~Kanda}
+\ecvitem{} {\it Density dependence of stripe formation in a cross-flow}
+\ecvitem{}{International Conference on Traffic and Granular Flow (TGF 2022)}
+\ecvitem{}{15-17 October 2022, Delhi, India}
+
+\stepcounter{papercount}
+\ecvitem{\thepapercount}{A.~Gregorj, Z.~Y\"cel, F.~Zanlungo, T.~Kanda}
+\ecvitem{} {\it On the influence of group social interaction on intrusive behaviors}
+\ecvitem{}{International Conference on Traffic and Granular Flow (TGF 2022)}
+\ecvitem{}{15-17 October 2022, Delhi, India}
+
+\stepcounter{papercount}
+\ecvitem{\thepapercount}{F.~Zanlungo, C.~Feliciani, Z.~Y\"cel, K.~Nishinari, T.~Kanda}
+\ecvitem{} {\it Crowd congestion number}
+\ecvitem{}{Pedestrian and Evacuation Dynamics, PED 2021}
+\ecvitem{}{Dec 2021, Melbourne, Australia}
+
+\stepcounter{papercount}
+\ecvitem{\thepapercount}{A.~Gregorj, Z.~Y\"cel, F.~Zanlungo, C.~Feliciani, T.~Kanda}
+\ecvitem{} {\it On the influence of group social relation on the dynamics of pedestrians outside the group}
+\ecvitem{}{Pedestrian and Evacuation Dynamics, PED 2021}
+\ecvitem{}{Dec 2021, Melbourne, Australia}
 
 \stepcounter{papercount}
 \ecvitem{\thepapercount}{E.~Repiso, F.~Zanlungo, T.~Kanda, A.~Garrell, A.~Sanfeliu}
