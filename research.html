@@ -1,135 +1,255 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Francesco Zanlungo's Personal Home Page</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" type="text/css" href="styles0.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francesco Zanlungo's Personal Home Page</title>
+    <link rel="stylesheet" type="text/css" href="styles0.css">
 </head>
 
 <body>
 
-<div id="wrapper">
-	<div id="header"><h1>Francesco Zanlungo, PhD</h1></div>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Francesco Zanlungo, PhD</h1>
+            <div class="flag-container">
+                <a href="index.html"><img class="flag" src="photos/flag_british.jpg" alt="EN"></a>
+                <a href="indexit.html"><img class="flag" src="photos/flag_italian.jpg" alt="IT"></a>
+                <a href="indexjp.html"><img class="flag" src="photos/flag_japanese.jpg" alt="JP"></a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="leftpane">
+                <ul style="list-style-type:none">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cv.html">Curriculum vitae</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="pub.html">Publications</a></li>
+                    <li><a href="simulations.html">Simulations</a></li>
+                    <li><a href="downloads.html">Downloads</a></li>
+                    <li><a href="personal.html">Personal</a></li>
+                </ul>
+                <br>
+                <ul style="list-style-type:none">
+                    <li>Contact info</li>
+                    <li>
+                        <img style="float:left;margin-top:5px; margin-left:10px;  margin-bottom:0px"
+                            src="photos/mailaddress_atr.png" alt="mailAddress1" height="12">
+                    </li>
+                </ul>
+            </div>
 
-	<table id="table">
-	<tr>
-	<td id="empty"></td>
-	<td rowspan="2" id="content">
-    
-	<p></p><!-- to have a little space from the top-->
-    	<strong>Crowd dynamics</strong><br>
-        <blockquote>
-        <p><i> My main research topic since I moved to Japan </i></p>
-		
-	<p> Since 2010 my main research topic has been the study of the behaviour of crowds. With my research group, we have collected a large amount of data concerning the behaviour of pedestrians in real-world environment, which I used to develop original models of pedestrian and crowd dynamics. More in detail, the major findings regarded:</p>
+            <div id="rightpane" class="justified-text">
+                <p>
+                    <i>
+                        My main research topic since I moved to Japan
+                    </i>
+                </p>
 
-	<ol>
-	 
-	<li> The need to include a velocity dependent potential in a collision avoiding model for pedestrians, and the development of a corresponding mathematical and computational model [<a  href="docs/papers/2011_epl.pdf">EPL 2011 </a>].</li>
+                <p>
+                    Since 2010 my main research topic has been the study of the behaviour of crowds. With my
+                    research group, we have collected a large amount of data concerning the behaviour of pedestrians
+                    in real-world environment, which I used to develop original models of pedestrian and crowd
+                    dynamics. More in detail, the major findings regarded:
+                </p>
 
-	<li> The finding that (Japanese) pedestrians have a tendency to walk on the left side of corridors, and to overtake other pedestrians on the right side, and the development of a method to introduce in a realistic way such a tendency in any pedestrian collision avoidance model [<a  href="docs/papers/2012_plos.pdf">Plos 2012</a>, <a  href="docs/papers/2014_ped_brscic.pdf">PED 2014</a>, <a  href="docs/papers/2012_ped.pdf">PED 2012</a>].</li>
+                <ol>
+                    <li>
+                        The need to include a velocity dependent potential in a collision avoiding model for
+                        pedestrians, and the development of a corresponding mathematical and computational model [<a
+                            href="docs/papers/2011_epl.pdf">EPL 2011 </a>].
+                    </li>
 
-	<li> The finding that large pedestrian groups are not stable, and usually break up in more stable 2 or 3 pedestrian sub-units [<a  href="docs/papers/2013_cogsci.pdf">CogSci 2013</a>].</li>
+                    <li>
+                        The finding that (Japanese) pedestrians have a tendency to walk on the left side of
+                        corridors, and to overtake other pedestrians on the right side, and the development of a
+                        method to introduce in a realistic way such a tendency in any pedestrian collision avoidance
+                        model
+                        [<a href="docs/papers/2012_plos.pdf">Plos 2012</a>,
+                        <ahref="docs /papers/2014_ped_brscic.pdf">PED 2014</a>,
+                            <a href="docs/papers/2012_ped.pdf">PED2012</a>].
+                    </li>
 
-	<li> The development of a mathematical model for the behaviour of social pedestrian groups, which was able to correctly predict the shape and velocity of pedestrian groups in low density, large environments [<a  href="docs/papers/2014_pre.pdf">Physical Review E  2014</a>].</li>
+                    <li>
+                        The finding that large pedestrian groups are not stable, and usually break up in more
+                        stable 2 or 3 pedestrian sub-units
+                        [<a href="docs/papers/2013_cogsci.pdf">CogSci 2013</a>].
+                    </li>
 
-	<li> The empirical study and mathematical modelling of how crowd density and other environment features affect the behaviour of pedestrian groups [<a  href="docs/papers/2015_epl.pdf">EPL 2015</a>, <a  href="docs/papers/2015_pre.pdf">Physical Review E  2015</a>, <a  href="docs/papers/2014_ped_brscic.pdf">PED 2014</a>].</li>
+                    <li>
+                        The development of a mathematical model for the behaviour of social pedestrian groups,
+                        which was able to correctly predict the shape and velocity of pedestrian groups in low
+                        density, large environments
+                        [<a href="docs/papers/2014_pre.pdf">Physical Review E 2014</a>].
+                    </li>
 
-	<li> The study of how social bonds affect the motion of pedestrians in a group [<a  href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0187253&type=printable">PLOS 2017</a>, <a  href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0225704&type=printable">PLOS 2019</a>] with an application to the problem of automatic detection of social relations [<a  href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0223656&type=printable">PLOS 2019</a>].</li>
+                    <li>
+                        The empirical study and mathematical modelling of how crowd density and other environment
+                        features affect the behaviour of pedestrian groups
+                        [<a href="docs/papers/2015_epl.pdf">EPL 2015</a>,
+                        <a href="docs/papers/2015_pre.pdf">Physical Review E 2015</a>,
+                        <a href="docs/papers/2014_ped_brscic.pdf">PED 2014</a>].
+                    </li>
 
-	<li> The study of the dynamics of a pedestrian crowd in a cross-flow, including a novel computational model to reproduce it [<a  href="https://www.sciencedirect.com/science/article/pii/S0925753522002922">Safety Science 2023</a>, <a  href="https://www.sciencedirect.com/science/article/pii/S0925753522003083">Safety Science 2023B</a>].</li>
+                    <li>
+                        The study of how social bonds affect the motion of pedestrians in a group
+                        [<a
+                            href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0187253&type=printable">PLOS
+                            2017</a>,
+                        <a
+                            href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0225704&type=printable">PLOS
+                            2019</a>]
+                        with an application to the problem of automatic detection of social relations
+                        [<a
+                            href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0223656&type=printable">PLOS
+                            2019</a>].
+                    </li>
 
-		<li> The proposal of a new metric to assess the state of a pedestrian crowd  [<a  href="https://www.sciencedirect.com/science/article/pii/S0968090X2300030X"> Transportation Research C 2023</a>].</li>
+                    <li>
+                        The study of the dynamics of a pedestrian crowd in a cross-flow, including a novel
+                        computational model to reproduce it
+                        [<a href="https://www.sciencedirect.com/science/article/pii/S0925753522002922">Safety
+                            Science 2023</a>,
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0925753522003083">Safety
+                            Science 2023B</a>].
+                    </li>
 
-	</ol>
-	
-        </blockquote>
-     
- 
-    
-    	<strong>Discrete chaotic systems</strong><br>
-        <blockquote>
-        <p><i>Analysis of the effect of noise on discrete maps, in collaboration with S. Vaienti and G. Turchetti</i></p>
-	<p>The research activity was focused on the analysis of the effect of noise on discrete maps, and in particular on the identification of a method that allows to find a threshold beyond which the numerical results on chaotic maps are not reliable, and on the analysis of the differences between the effect of random noise and the effect of numerical round-off on the dynamics of the map [<a  href="docs/papers/2010_physicaa.pdf">Physica A 2010</a>, <a  href="docs/papers/2010_epl.pdf">EPL 2010</a>, <a  href="docs/papers/2009_chaos.pdf">CHAOS 2009</a>].</p>
-        </blockquote>
-     
+                    <li> The proposal of a new metric to assess the state of a pedestrian crowd
+                        [<a href="https://www.sciencedirect.com/science/article/pii/S0968090X2300030X">
+                            Transportation Research C 2023</a>].
+                    </li>
+                </ol>
 
-    <p><strong>Evolutionary dynamics of agent systems</strong><br>
-        <blockquote>
-        <p><i>Microscopic Dynamics of Artificial Life Systems (Ph.D. graduation thesis, supervisor G. Turchetti, and in collaboration with T. Arita)</i></p>
-		
-	<p>The research activity was mainly focused on the study of systems composed of many independent parts provided with some form of perception and data processing capability (agents). The purpose of this research was to combine an Artificial Life approach in which agents could adapt to the environment with
-a mean field approach based on differential equations that could describe the dynamics of macroscopic observables. Using this approach I studied the following problems:</p>
+                <p>
+                    <strong>Discrete chaotic systems</strong>
+                </p>
 
-	<ol>
-	 
-	<li> I developed a cellular automata model of the T-cell clonal expansion in the Immune System, and the corresponding mean field model, and I compared the results obtained by using these two approaches [<a  href="docs/papers/2008_mmbs.pdf">MMBS 2008</a>].</li>
+                <p>
+                    <i>
+                        Analysis of the effect of noise on discrete maps, in collaboration with S. Vaienti and G.
+                        Turchetti
+                    </i>
+                </p>
 
-	<li> Using agent simulations and a replicator dynamics differential approach, I studied the relation between the evolution of collision avoidance strategies and the evolution of the Theory of Mind (ability to understand that also other people have a mind) [<a  href="docs/papers/2007_acs.pdf">ACS 2007</a>, <a  href="docs/papers/2008_alec.pdf">ALEC 2008</a>, ECCS 2007].</li>
+                <p>
+                    The research activity was focused on the analysis of the effect of noise on discrete maps, and in
+                    particular on the identification of a method that allows to find a threshold beyond which the
+                    numerical results on chaotic maps are not reliable, and on the analysis of the differences
+                    between the effect of random noise and the effect of numerical round-off on the dynamics of the
+                    map [<a href="docs/papers/2010_physicaa.pdf">Physica A 2010</a>, <a
+                        href="docs/papers/2010_epl.pdf">EPL 2010</a>, <a href="docs/papers/2009_chaos.pdf">CHAOS
+                        2009</a>].
+                </p>
 
-	<li> Combining a cellular automaton model and a replicator dynamics analysis, I studied the evolution of “traffic conventions” (such as driving on the left or right side of streets) in a mobility system [<a  href="docs/papers/2008_acs.pdf">ACS 2008</a>, <a  href="docs/papers/2006_alr.pdf">ALR 2008</a>].</li>
+               
 
-	<li> Using both computational and analytical methods, I studied the consequences of the fact that interactions dependent on vision (such as the collision avoidance in crowd dynamics) do not follow the action-reaction law of dynamics [<a  href="docs/papers/2007_epl.pdf">EPL 2007</a>].</li>
-	 
-	</ol>
+                <p>
+                    <strong>Evolutionary dynamics of agent systems</strong>
+                </p>
 
-	</blockquote>
-    
+                
 
-    	<strong>Socially acceptable mobile robot navigation</strong><br>
-        <blockquote>
-        <p><i>As part of the JST Kanda CREST project</i></p>
-	<p>While working at ATR I have been also involved in more engineering oriented works, such as the development of a robot able to smoothly navigate inside a human crowd [IJSR 2014, SIMPAR 2012, <a  href="docs/papers/2012_roman.pdf">RO-MAN 2012</a>], and the development of algorithms to automatically detect pedestrian walking goals [<a  href="docs/papers/2013_rss.pdf">RSS 2013</a>] and pedestrian groups [<a  href="docs/papers/2013_sensors.pdf">Sensors 2013</a>, <a  href="docs/papers/2012_icra.pdf">ICRA 2012</a>].</p>
-        </blockquote>
-   
+                <p>
+                    <i>
+                        Microscopic Dynamics of Artificial Life Systems (Ph.D. graduation thesis, supervisor G.
+                        Turchetti, and in collaboration with T. Arita)
+                    </i>
+                </p>
 
-    <p><strong>Numerical study of statistical properties of relativistic fields</strong><br>
-        <blockquote>
-        <p><i>Numerical study of the ultraviolet cascade in &#x3C6;4 classical model (Laurea graduation thesis, supervisor C. Destri)</i></p>
-		
-	<p>Using a numerical algorithm, time and space are treated in a symmetrical way, preserving thus the relativistic structure of the field theory, and conserves energy at machine precision, to study the energy diffusion to the higher (ultraviolet) modes of a relativistic scalar field with a quartic interaction term. The results were compared with a more traditional numerical treatment of hyperbolic partial differential equations. </p>
-        </blockquote>
-   
-  
+                <p>
+                    The research activity was mainly focused on the study of systems composed of many independent
+                    parts provided with some form of perception and data processing capability (agents). The purpose
+                    of this research was to combine an Artificial Life approach in which agents could adapt to the
+                    environment with
+                    a mean field approach based on differential equations that could describe the dynamics of
+                    macroscopic observables. Using this approach I studied the following problems:
+                </p>
 
-   
+                <ol>
 
-   </td>
+                    <li> I developed a cellular automata model of the T-cell clonal expansion in the Immune System,
+                        and the corresponding mean field model, and I compared the results obtained by using these
+                        two approaches [<a href="docs/papers/2008_mmbs.pdf">MMBS 2008</a>].
+                    </li>
 
-	</tr>
+                    <li>
+                        Using agent simulations and a replicator dynamics differential approach, I studied the
+                        relation between the evolution of collision avoidance strategies and the evolution of the
+                        Theory of Mind (ability to understand that also other people have a mind) [<a
+                            href="docs/papers/2007_acs.pdf">ACS 2007</a>, <a href="docs/papers/2008_alec.pdf">ALEC
+                            2008</a>, ECCS 2007].
+                    </li>
 
-	<tr>
-	<td id="menu">
-		<ul style="list-style-type:none">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="cv.html">Curriculum vitae</a></li>
-			<li><a href="research.html">Research</a></li>
-			<li><a href="teaching.html">Teaching</a></li>
-			<li><a href="pub.html">Publications</a></li>
-			<li><a href="simulations.html">Simulations</a></li>
-			<li><a href="downloads.html">Downloads</a></li>
-			<li><a href="personal.html">Personal</a></li>
-	</ul>
-	<ul style="list-style-type:none">
-			<li>Contact info</li>
-			
-			<li><img 
-		      style="float:left;margin-top:5px; margin-left:10px;  margin-bottom:0px"
-		      src="photos/mailaddress_atr.png"
-		      alt="mailAddress1"
-		      height="12"></li>
-		</ul>
-	</td>
-	</tr>
+                    <li>
+                        Combining a cellular automaton model and a replicator dynamics analysis, I studied the
+                        evolution of “traffic conventions” (such as driving on the left or right side of streets) in
+                        a mobility system [<a href="docs/papers/2008_acs.pdf">ACS 2008</a>, <a
+                            href="docs/papers/2006_alr.pdf">ALR 2008</a>].
+                    </li>
 
-	</table>
+                    <li> Using both computational and analytical methods, I studied the consequences of the fact
+                        that interactions dependent on vision (such as the collision avoidance in crowd dynamics) do
+                        not follow the action-reaction law of dynamics [<a href="docs/papers/2007_epl.pdf">EPL
+                            2007</a>].
+                    </li>
 
-<div id="footer">
-		<p> <a href="http://jigsaw.w3.org/css-validator/check/referer"> Valid CSS</a> | <a href="http://validator.w3.org/check/referer"> Valid HTML  </a> | Copyright &copy; Francesco Zanlungo</p>
-	</div>
+                </ol>
 
-</div>
+                
+
+                <p>
+                    <strong>Socially acceptable mobile robot navigation</strong>
+                </p>
+
+                
+
+                <p>
+                    <i>As part of the JST Kanda CREST project</i>
+                </p>
+
+                <p>
+                    While working at ATR I have been also involved in more engineering oriented works, such as the
+                    development of a robot able to smoothly navigate inside a human crowd [IJSR 2014, SIMPAR 2012,
+                    <a href="docs/papers/2012_roman.pdf">RO-MAN 2012</a>],
+                    and the development of algorithms to automatically detect pedestrian walking goals
+                    [<a href="docs/papers/2013_rss.pdf">RSS 2013</a>]
+                    and pedestrian groups
+                    [<a href="docs/papers/2013_sensors.pdf">Sensors 2013</a>,
+                    <a href="docs/papers/2012_icra.pdf">ICRA 2012</a>].
+                </p>
+
+               
+
+                <p>
+                    <strong>Numerical study of statistical properties of relativistic fields</strong><br>
+                </p>
+
+                
+
+                <p>
+                    <i>Numerical study of the ultraviolet cascade in &#x3C6;4 classical model (Laurea graduation
+                        thesis, supervisor C. Destri)</i>
+                </p>
+
+                <p>
+                    Using a numerical algorithm, time and space are treated in a symmetrical way, preserving thus the
+                    relativistic structure of the field theory, and conserves energy at machine precision, to study
+                    the energy diffusion to the higher (ultraviolet) modes of a relativistic scalar field with a
+                    quartic interaction term. The results were compared with a more traditional numerical treatment
+                    of hyperbolic partial differential equations.
+                </p>
+
+            </div>
+
+        </div>
+        <div id="footer">
+            <p> Copyright &copy; Francesco Zanlungo </p>
+        </div>
+
+    </div>
 
 </body>
+
 </html>
