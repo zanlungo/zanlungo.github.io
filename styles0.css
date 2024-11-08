@@ -1,82 +1,89 @@
-body {
-	font-family: Verdana;
-	font-size: 14px;
-	background-color: #FFFFFF;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
 }
+
+body {
+    font-family: Verdana;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+
 #wrapper {
-width: 800px;
-margin: 0 auto;/*border: 2px solid #369;*/
+    width: 800px;
+    margin: 0 auto;
+    /* Center the wrapper */
 }
 
 #header {
-width: 100%;/*border-bottom: 1px solid #369;*/
-margin: 0;
-padding: 0;
-background-color:#b0db89;
-height:80px;
-line-height:80px;
-padding-left:10px;
-color: #333;
+    width: 100%;
+    background-color: #b0db89;
+    height: 80px;
+    color: #333;
+    display: flex;
+    /* Use Flexbox for header */
+    justify-content: space-between;
+    /* Space between elements */
+    align-items: center;
+    /* Center align items vertically */
+    padding: 0 20px;
+    /* Padding on left and right */
 }
-
-#table {
-width: 100%;
-border-collapse: collapse;
-border: none;
-}
-
-#empty {
-width: 200px; /*border-right: 1px solid #369;*/
-margin: 0;
-padding: 0;
-}
-
-#menu {
-width: 200px;/*border-right: 1px solid #369;*/
-padding: 0px;
-vertical-align: top;
-background:#dfeb79 ;
-margin:0px 0; 
-list-style-type:none;
-margin-bottom:5px;
-line-height: 150%;
-color: #333;
-font-size: 15px;
-}
-
-a:link {
-    text-decoration: none;
-}
-a { color: inherit; } 
-
 
 #content {
-width: 600px;
-border: none;
-margin: 0;
-padding: 5px;
-vertical-align: top;
-color: #555;
-text-align: justify;
-text-justify: inter-word;
+    display: flex;
+    /* Use Flexbox to display child elements */
 }
 
-#content a {text-decoration:underline;}
+#leftpane {
+    flex: 0 0 30%;
+    /* Set left pane to 30% */
+    height: 600px;
+    background: #dfeb79;
+    line-height: 150%;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#rightpane {
+    flex: 0 0 70%;
+    /* Set right pane to 70% */
+    height: 600px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 0px;
+}
 
 #footer {
-width: 100%;/*border-top: 1px solid #369;*/
-margin: 0px;
-padding:5px 5px;
-clear:both;
-background:#BFBD93;
-text-align:center;
-color: #333;
-text-decoration: none;
-height: 40px;
+    width: 100%;
+    background: #BFBD93;
+    text-align: center;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    /* Vertically center text */
 }
 
-.table td { height:150%; }
-ol.lower-roman {list-style-type: lower-roman;}
+/* Link styles */
+a:link {
+    color: gray;
+    text-decoration: underline;
+}
 
 
+.flag {
+    float: right;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 21px;
+    height: 14px;
+    border: 1px solid gray;
+}
 
+.flag-container {
+    display: flex;
+    /* Flexbox for flags */
+}
