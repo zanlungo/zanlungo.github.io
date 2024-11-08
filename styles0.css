@@ -40,7 +40,7 @@ body {
 #leftpane {
     flex: 0 0 30%;
     /* Set left pane to 30% */
-    height: 600px;
+    min-height: 600px;
     background: #dfeb79;
     line-height: 150%;
     font-size: 15px;
@@ -51,7 +51,7 @@ body {
 #rightpane {
     flex: 0 0 70%;
     /* Set right pane to 70% */
-    height: 600px;
+    min-height: 600px;
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 0px;
@@ -87,3 +87,33 @@ a:link {
     display: flex;
     /* Flexbox for flags */
 }
+
+ol {
+    margin-left: 20px; /* Indents the list by 10 pixels */
+}
+p {
+    margin: 10px 0; /* 10px top and bottom, 0 left and right */
+}
+.justified-text {
+    text-align: justify;
+}
+.image-container {
+    display: flex; /* Use flexbox to align items side by side */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically if needed */
+}
+
+.side-image {
+    max-width: 90%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add some space between images */
+}
+
+
+h4 {
+    margin-bottom: 20px; /* Adjust value as needed */
+}
+h5 {
+    margin-bottom: 20px; /* Adjust value as needed */
+}
+
